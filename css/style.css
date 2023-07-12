@@ -1,9 +1,9 @@
 *{
     box-sizing:border-box;
+    margin:0;
+    padding:0;
 }
 body{
-    margin:0px;
-    padding: 0px;
     font-family:fantasy;
 }
 h1 {
@@ -14,7 +14,7 @@ h1 {
 .me{
     border: 1px solid black;
     padding: 40px 5px 5px 5px;
-    margin: 10px 5px 10px 5px;
+    margin: 10px;
     float:left;
     position:relative;
 }
@@ -35,14 +35,14 @@ section > section{
 }
 @media (min-width: 992px) {
     .me{
-        width: 30%;
+        width: 31%;
     }
 }
 @media (min-width: 768px) and (max-width: 991px){
     .me{
-        width:45%;
+        width: 47%;
     }
-    #name{
+    .me#name{
         width:100%;
     }
 }
