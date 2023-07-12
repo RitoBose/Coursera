@@ -25,7 +25,6 @@ section > section{
     position: absolute; top: 0px; right: 0px;
     text-align: center;
     font-size: 125%;
-    width:35%;
 }
 .one{
     background-color: aquamarine;
@@ -42,7 +41,7 @@ section > section{
     .me{
         width:40%;
     }
-    #name{
+    .me #name{
         width:100%;
     }
 }
