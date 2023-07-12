@@ -40,9 +40,9 @@ section > section{
 }
 @media (min-width: 768px) and (max-width: 991px){
     .me{
-        width:49%;
+        width:45%;
     }
-    .me#name{
+    #name{
         width:100%;
     }
 }
